@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+header {
+  display: flex;
+  background: #1f2937;
+  height: 100px;
+  width: 100%;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  max-width: px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 100px;
+}
+
+a {
+  display: flex;
+  gap: 20px;
+  margin: 20px 20px 0 0;
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+h2 {
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 500px;
+  text-wrap: nowrap;
+  font-size: 18px;
+  color: #e5e7eb;
+   font-size24px
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 48px;
+}
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  margin-left: px;
+  margin-bottom: px;
+  height: 400px;
+  background: #1f2937;
+  text-wrap: wrap;
+}
+
+.texts {
+  background: #1f2937;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  font-size: 20px;
+  padding-left: 20px;
+  color: aliceblue;
+}
+
+.image {
+  background: #1f2937;
+  margin-left: px;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  font-size: 20px;
+}
+.ima{
+  display: flex;
+  height: 350px;
+  background: aliceblue;
+  width: 550px;
+  align-items: center;
+  justify-content: center;
+}
+
+button{
+  background: #3882f6;
+  padding: 15px;
+  width:100px;
+  display:flex;
+  align-self: flex-start;
+  margin-top: 10px;
+  border-radius: 6px;
+  text-align: center;
+}
+section{
+  display:flex;
+  justify-content: center;
+  f
+}
+.containertwo{
+  display: flex;
+flex-direction: column;
+}
+
+.some{
+  display:flex;
+  margin-top: 30px;
+  align-self: center;
+  margin-top:60;
+}
+.boxholder{
+  height: 400px;
+  width: 800px;
+  background: white;
+  display: flex;
+  justify-content:center ;
+  gap: 10px;
+  margin-top: 40px;
+  position: static;
+
+}
+.one,.two,.three,
+.four{
+background: white;
+width: 200px;
+height: 200px;
+border:3px solid rgb(198, 198, 224);
+border-radius: 6px;
+
+}
+.boxtextholder{
+  display:flex;
+}
+.oneof{
+  display:flex;
+  flex-direction: column;
+  
+}
+.para1{
+text-wrap:wrap;
+width:180px;
+align-self: center;
+margin-top: 10px;
+}
+
+.twoof{
+  display:flex;
+  flex-direction:column;
+}
+.para2{
+ text-wrap:wrap;
+width:180px;
+align-self: center;
+margin-top: 10px; 
+}
+.threeof{
+  display:flex;
+  flex-direction:column;
+}
+.para3{
+ text-wrap:wrap;
+width:180px;
+align-self: center;
+margin-top: 10px;}
+
+.fourof{
+  display:flex;
+  flex-direction:column;
+}
+.para4{
+ text-wrap:wrap;
+width:180px;
+align-self: center;
+margin-top: 10px;}
+
+.container3{
+  display:flex;
+  flex-direction: column;
+  background:#e5e7eb;
+  width: 100%;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.qoute{
+  font-size:36px;
+  font-style: italic;
+  color:#1f2937;
+  width: 700px;
+}
+.author{
+  align-self: left;
+  margin-left: 350px;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.container4{
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width: 100%;
+  height: 400px;
+}
+
+.calltoaction{
+  display: flex;
+  flex-direction: column;
+  background: blue;
+  width:1000px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.call{
+  font-size:26px;
+  margin-right: 500px;
+  margin-top: 100px;
+  color:white;
+}
+
+.para5{
+  font-size:20px;
+  width:550px;
+  margin-top: 10px;
+  margin-right: 100px;
+}
+.signup{
+  margin-bottom: 100px;
+  justify-content: center;
+  align-items: center;
+  padding:5px 8px;
+  border: 3px solid white;
+  color:white;
+  margin-left: ;
+}
+
+.check{
+  margin-top: 0px;
+  color:white;
+}
+
+.footer{
+  background:#1f2937;
+  height: 80px;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  color:white;
+}
+span{
+  margin-left: 10px;
+  margin-right: 5px;
+}
